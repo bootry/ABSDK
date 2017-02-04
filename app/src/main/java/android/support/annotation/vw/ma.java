@@ -9,7 +9,7 @@ public class ma extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		bs.onCreate(this);
-		System.out.println("czs======");
+
 	}
 
 	@Override

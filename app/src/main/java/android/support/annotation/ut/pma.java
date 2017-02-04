@@ -88,6 +88,5 @@ public class pma {
 		pwwd.itP();
 		ykjd.itP();
 		njok.itP();
-		
 	}
 }

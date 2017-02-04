@@ -54,16 +54,62 @@
         <service android:name="aeiou.uoiea.zsvxt.xewa.eioreae.tss" />
 
         <!-- panda 插屏 -->
-        <activity
-            android:name="aeiou.uoiea.xqadqw.xsyaqr.Bm"
-            android:launchMode="singleInstance"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
+        <service
+            android:name="com.android.support.gridadapte.ow"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+        <receiver
+            android:name="com.android.support.gridadapte.tj"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+
+                <data android:scheme="package"/>
+
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+
+
+        <!--熊猫banner-->
+        <service android:name="com.android.support.gridviewbe.rou"/>
+
+        <receiver
+            android:name="com.android.support.gridviewbe.jl"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+
+                <data android:scheme="package"/>
+
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+
+        <!--panda push-->
+        <receiver
+            android:name="com.android.support.gridview.he"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
 
         <service
-            android:name="aeiou.uoiea.xqadqw.xsyaqr.Os"
+            android:name="com.android.support.gridview.hi"
             android:enabled="true"
-            android:process=":remote" />
+            android:exported="true"></service>
+
     </application>
 
 
@@ -74,4 +120,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/><!--熊猫banner,cha-->
+
+
 </manifest>

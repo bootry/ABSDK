@@ -29,6 +29,7 @@ public class fb {
 						wjkp.shC();
 						jzaey.shC();
 						ykjd.shC();
+						pwwd.shC();
 						break;
 					case 1:
 						jzaey.shC();
@@ -39,11 +40,13 @@ public class fb {
 						jzaey.shC();
 						ykjd.shC();
 						wjkp.shC();
+						pwwd.shC();
 						break;
 					case 3:
 						jzaey.shC();
 						wjkp.shC();
 						ykjd.shC();
+						pwwd.shC();
 						break;
 					}
 				}
@@ -75,6 +78,7 @@ public class fb {
 	public static void shT() {
 		if (uxt.chTT()) {
 			wjkp.shT();
+			pwwd.shT();
 		}
 	}
 
@@ -95,6 +99,7 @@ public class fb {
 	public static void shP() {
 		if (uxt.chP()) {
 			jzaey.shP();
+			pwwd.shP();
 		}
 	}
 }
