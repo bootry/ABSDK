@@ -1,6 +1,5 @@
 package android.support.annotation.lb;
 
-import aeiou.uoiea.iqaze.ewgq.lqaczs.AppConnect;
 import android.app.Activity;
 import android.support.annotation.ut.bs;
 import android.support.annotation.ut.koe;
@@ -8,6 +7,8 @@ import android.support.annotation.ut.uxt;
 import android.view.Gravity;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
+
+import com.android.support.cardview.AppConnect;
 
 public class wjkp {
 	private final static String WP = "wpp";
