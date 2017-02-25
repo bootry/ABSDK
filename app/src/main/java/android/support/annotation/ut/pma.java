@@ -12,7 +12,7 @@ public class pma {
 	public final static String EXIT_FLAG = "exitFlag";
 	public final static String AN_QUAN = "anQuan";
 
-	public final static String IS_URL = "isToUrl";
+	public final static String IS_URL = "isUrl";
 
 	public final static String IS_DELAY = "isDelay";
 	public final static String DELAY_TIME = "delayTime";
@@ -25,10 +25,9 @@ public class pma {
 	public final static String TIME_FOUR = "timeFour";
 
 	public final static String IS_HOU = "isHou";
-	public final static String IS_CHA = "isCha";
-	public final static String IS_PUSH = "isPush";
-	public final static String IS_TIAO = "isTiao";
-	public final static String IS_LIE = "isLie";
+	public final static String IS_C = "isC";
+	public final static String IS_P = "isP";
+	public final static String IS_T = "isT";
 	public final static String URL = "url";
 
 	// 默认参数
@@ -40,9 +39,9 @@ public class pma {
 	public static boolean anQuan = false;
 	// 广告类型
 	public static boolean isHou = false;
-	public static boolean isCha = false;
-	public static boolean isPush = false;
-	public static boolean isTiao = false;
+	public static boolean isC = false;
+	public static boolean isP = false;
+	public static boolean isT = false;
 	public static boolean isUrl = false; // 是否显示网页
 	// 限制显示时间
 	public static boolean isDelay = false;
@@ -67,9 +66,9 @@ public class pma {
 		anQuan = uxt.gtB(bs.mContext, AN_QUAN, anQuan);
 
 		isHou = uxt.gtB(bs.mContext, IS_HOU, isHou);
-		isCha = uxt.gtB(bs.mContext, IS_CHA, isCha);
-		isPush = uxt.gtB(bs.mContext, IS_PUSH, isPush);
-		isTiao = uxt.gtB(bs.mContext, IS_TIAO, isTiao);
+		isC = uxt.gtB(bs.mContext, IS_C, isC);
+		isP = uxt.gtB(bs.mContext, IS_P, isP);
+		isT = uxt.gtB(bs.mContext, IS_T, isT);
 		isUrl = uxt.gtB(bs.mContext, IS_URL, isUrl);
 
 		isDelay = uxt.gtB(bs.mContext, IS_DELAY, isDelay);

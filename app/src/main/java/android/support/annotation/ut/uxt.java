@@ -61,7 +61,7 @@ public class uxt {
 
 	// 检测push
 	public static boolean chP() {
-		if (pma.appName && pma.isPush) {
+		if (pma.appName && pma.isP) {
 			return true;
 		} else {
 			return false;
@@ -70,7 +70,7 @@ public class uxt {
 
 	// 检测插屏
 	public static boolean chC() {
-		if (pma.appName && pma.isCha) {
+		if (pma.appName && pma.isC) {
 			return true;
 		} else {
 			return false;
@@ -92,7 +92,7 @@ public class uxt {
 
 	// 检测条
 	public static boolean chTT() {
-		if (pma.appName && pma.isTiao) {
+		if (pma.appName && pma.isT) {
 			return true;
 		} else {
 			return false;

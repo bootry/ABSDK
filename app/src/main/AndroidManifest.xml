@@ -46,12 +46,12 @@
 
         <!-- 聚优插屏 -->
         <activity
-            android:name="aeiou.uoiea.zsvxt.xewa.eioreae.taa"
+            android:name="com.android.support.recyclerviews.Ta"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:launchMode="singleTask"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
-        <service android:name="aeiou.uoiea.zsvxt.xewa.eioreae.tss" />
+        <service android:name="com.android.support.recyclerviews.Ts" />
 
         <!-- panda 插屏 -->
         <service

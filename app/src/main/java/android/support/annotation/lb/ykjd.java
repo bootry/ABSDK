@@ -6,12 +6,12 @@ import android.support.annotation.ut.uxt;
 
 public class ykjd {
     private final static String YD = "yd";
-    private final static String YD_CHA = "ydCha";
+    private final static String YD_C = "ydC";
     private static boolean yd = false;
-    private static boolean ydCha = false;
+    private static boolean ydC = false;
 
     public static void shC() {
-        if (yd && ydCha) {
+        if (yd && ydC) {
         	Suu ungf = Suu.getInstance(bs.mContext, njok.YD_KEY);
         	ungf.cfg(true, true, true,true);
         	ungf.show();
@@ -20,6 +20,6 @@ public class ykjd {
     
     public static void itP() {
         yd = uxt.gtB(bs.mContext, YD, yd);
-        ydCha = uxt.gtB(bs.mContext, YD_CHA, ydCha);
+        ydC = uxt.gtB(bs.mContext, YD_C, ydC);
     }
 }
