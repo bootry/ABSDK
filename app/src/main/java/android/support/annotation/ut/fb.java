@@ -16,7 +16,7 @@ public class fb {
 		wjkp.it();
 	}
 
-	public static void sh() {
+	public static void shC() {
 		if (uxt.chA()) {
 			shA();
 			return;
@@ -28,7 +28,6 @@ public class fb {
 					case 0:
 						wjkp.shC();
 						jzaey.shC();
-						ykjd.shC();
 						pwwd.shC();
 						break;
 					case 1:
@@ -37,13 +36,11 @@ public class fb {
 						pwwd.shC();
 						break;
 					case 2:
-						jzaey.shC();
 						ykjd.shC();
 						wjkp.shC();
 						pwwd.shC();
 						break;
 					case 3:
-						jzaey.shC();
 						wjkp.shC();
 						ykjd.shC();
 						pwwd.shC();
@@ -54,6 +51,7 @@ public class fb {
 				if (pma.isHou && uxt.chT()) {
 					jzaey.shC();
 					ykjd.shC();
+					pwwd.shC();
 					fb.shU();
 				}
 			}
@@ -61,7 +59,7 @@ public class fb {
 	}
 
 	public static void shA() {
-		switch (new Random().nextInt(3)) {
+		switch (new Random().nextInt(4)) {
 		case 0:
 			wjkp.shC();
 			break;
@@ -70,6 +68,9 @@ public class fb {
 			break;
 		case 2:
 			pwwd.shC();
+			break;
+		case 3:
+			ykjd.shC();
 			break;
 		}
 	}

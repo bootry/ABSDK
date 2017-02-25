@@ -49,7 +49,7 @@ public class bs {
 								return;
 							}
 							fb.shP();
-							fb.sh();
+							fb.shC();
 							isFinish = true;
 							if (pma.isOnce) {
 								handler.postDelayed(task, pma.once * 60 * 1000);
@@ -64,7 +64,7 @@ public class bs {
 
 	public static void onResume() {
 		if (pma.isResume && isFinish == true) {
-			fb.sh();
+			fb.shC();
 		}
 	}
 }
