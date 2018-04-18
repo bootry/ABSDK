@@ -5,10 +5,7 @@ import java.util.Random;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.annotation.lb.jzaey;
-import android.support.annotation.lb.pwwd;
 import android.support.annotation.lb.wjkp;
-import android.support.annotation.lb.ykjd;
 
 public class fb {
 	// 初始化其他平台
@@ -24,34 +21,10 @@ public class fb {
 		if (uxt.chC()) {
 			if (uxt.isRb(bs.mContext)) {
 				if (uxt.chT()) {
-					switch (new Random().nextInt(4)) {
-					case 0:
-						wjkp.shC();
-						jzaey.shC();
-						pwwd.shC();
-						break;
-					case 1:
-						jzaey.shC();
-						wjkp.shC();
-						pwwd.shC();
-						break;
-					case 2:
-						ykjd.shC();
-						wjkp.shC();
-						pwwd.shC();
-						break;
-					case 3:
-						wjkp.shC();
-						ykjd.shC();
-						pwwd.shC();
-						break;
-					}
+					wjkp.shC();
 				}
 			} else {
 				if (pma.isHou && uxt.chT()) {
-					jzaey.shC();
-					ykjd.shC();
-					pwwd.shC();
 					fb.shU();
 				}
 			}
@@ -59,27 +32,13 @@ public class fb {
 	}
 
 	public static void shA() {
-		switch (new Random().nextInt(4)) {
-		case 0:
-			wjkp.shC();
-			break;
-		case 1:
-			jzaey.shC();
-			break;
-		case 2:
-			pwwd.shC();
-			break;
-		case 3:
-			ykjd.shC();
-			break;
-		}
+		wjkp.shC();
 	}
 
 	// 显示广告条
 	public static void shT() {
 		if (uxt.chTT()) {
 			wjkp.shT();
-			pwwd.shT();
 		}
 	}
 
@@ -99,8 +58,6 @@ public class fb {
 	// 显示push
 	public static void shP() {
 		if (uxt.chP()) {
-			jzaey.shP();
-			pwwd.shP();
 		}
 	}
 }
