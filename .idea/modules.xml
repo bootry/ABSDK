@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ABSDK.iml" filepath="$PROJECT_DIR$/ABSDK.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ablib/ablib.iml" filepath="$PROJECT_DIR$/ablib/ablib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
